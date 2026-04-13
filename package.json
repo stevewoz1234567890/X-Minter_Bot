@@ -5,10 +5,13 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "coin-from-tweet": "node dist/cli/coin-from-tweet.js"
+    "coin-from-tweet": "node dist/cli/coin-from-tweet.js",
+    "bot": "node dist/cli/run-elon-bot.js"
   },
   "dependencies": {
+    "@pump-fun/pump-sdk": "^1.32.0",
     "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
     "dotenv": "^16.4.7",
     "twitter-api-v2": "^1.18.2"
   },
